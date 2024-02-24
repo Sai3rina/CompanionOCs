@@ -49,7 +49,7 @@ function CostumeSwap()
     elseif World == 0x12 then --Final world
         WriteString(Obj0+0x8D70,'P_EX020C\0')
     elseif World == 0x0d then --Timelaess River
-        WriteString(Obj0+0x8D70,'P_EX020C\0')
+        WriteString(Obj0+0x8D70,'P_WI020C\0')
     elseif World == 0x11 then --SpaceParanoids
         WriteString(Obj0+0x8D70,'P_EX020C_TR\0')
     elseif World == 0x0a then --Pride Lands
